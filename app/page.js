@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     isMobile?(
-      <div className=" bg-whtie flex-col">
+      <div className=" bg-white flex-col">
 
       <SidebarArrow/>
       
