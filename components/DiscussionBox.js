@@ -38,7 +38,7 @@ const DiscussionBox = ({title,description}) => {
 
        </div>
 
-       <p className='mt-2 font-light font-sans text-black ml-12'>
+       <p className='mt-2 font-light font-sans text-sm text-black ml-12'>
        {description}
        .</p>
        <div className=' flex justify-around  mt-2'>
