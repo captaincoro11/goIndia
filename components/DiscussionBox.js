@@ -30,23 +30,23 @@ const DiscussionBox = ({title,description}) => {
 
 
         <div className='flex space-x-4'>
-       <FaUser className=' size-6'/>
-       <p className='font-bold '>{title}</p>
+       <FaUser className=' size-6 text-black'/>
+       <p className='font-bold  text-black '>{title}</p>
        <p className=' cursor-pointer bg-blue-900 rounded-xl w-16 flex text-xs justify-center items-center h-6 text-white'>Sector2</p>
        </div>
        <p className=' text-sm text-blue-600 '>2min ago</p>
 
        </div>
 
-       <p className='mt-2 font-light font-sans ml-12'>
+       <p className='mt-2 font-light font-sans text-black ml-12'>
        {description}
        .</p>
        <div className=' flex justify-around  mt-2'>
 
-   <button onClick={likehandler}> {like?<FcLike className=' cursor-pointer size-6'/>:<FaRegHeart className=' cursor-pointer size-6'/>}</button>
-    <GrView className=' cursor-pointer size-6'/>
-    <FaRegComments className=' cursor-pointer size-6'/>
-    <GoShareAndroid className=' cursor-pointer size-6'/>
+   <button className='text-black' onClick={likehandler}> {like?<FcLike className=' cursor-pointer size-6'/>:<FaRegHeart className=' cursor-pointer size-6'/>}</button>
+    <GrView className=' cursor-pointer size-6 text-black'/>
+    <FaRegComments className=' cursor-pointer text-black size-6'/>
+    <GoShareAndroid className=' cursor-pointer text-black size-6'/>
 
     </div>
 

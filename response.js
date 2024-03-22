@@ -12,6 +12,11 @@ export const users =[
         title:"Lorem Ipsum",
         description:"Hi There this is dummy data and this app is made by Pranjul Shukla"
     },
+    {
+        title:"Lorem Ipsum",
+        description:"Hi There this is dummy data and this app is made by Pranjul Shukla"
+    },
+   
    
    
    

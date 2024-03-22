@@ -9,10 +9,12 @@ const MarketBox = ({src,title,description}) => {
     const sidebarstore = useStore();
   return (
     isMobile?(
-      <div className={'flex-col  border border-x-8 border-y-8 shadow-2xl rounded-lg mt-4    '}>
+      <div className=' bg-white'>
+      <div className={'flex-col bg-white text-black border border-x-8 border-y-8 shadow-2xl rounded-lg mt-4    '}>
       <img className='  ' src={src} alt="name" />
       <p className=' font-bold flex justify-center'>{title}</p>
       <p className=' font-mono font-light flex pl-6 justify-center'>{description}</p>
+    </div>
     </div>
     ):(
 
