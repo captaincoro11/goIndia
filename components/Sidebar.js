@@ -6,6 +6,7 @@ import { CiDollar } from "react-icons/ci";
 import { useMediaQuery } from '@react-hooks-library/core';
 import {users} from '../response'
 import {material} from '../response'
+import useStore from '../hooks/sidebarstore';
 
 
 
@@ -15,12 +16,14 @@ const Sidebar = () => {
     const materiallength = material.length>2;
     const usermobilelength = (users.length>3);
     const materialmobilellength = (material.length>1);
+    const sidestore = useStore();
 
 
   return (
 
     isMobile?(
-      <div className={'w-3/4 bg-blue-900 fixed  text-white h-screen '}>
+      
+      <div className={sidestore.isOpen?'w-3/4 bg-blue-900 absolute h-screen  text-white  ':'w-3/4 bg-blue-900  fixed    text-white h-screen '}>
       <div className='flex justify-around pt-4 '>
       
       <div className='flex space-x-3   '>

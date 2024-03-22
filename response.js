@@ -20,6 +20,7 @@ export const users =[
    
    
    
+   
  
  
     
@@ -37,8 +38,7 @@ export const material = [
         title:"The World is near End",
         description:"It is a world class nextjs website made by Pranjul Shukla"
     },
-   
-    
+ 
 
 
 ]

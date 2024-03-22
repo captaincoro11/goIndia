@@ -36,7 +36,7 @@ const SidebarArrow = () => {
       <div className='text-white'>
       <button className={sidebar.isOpen?
       ' bg-blue-900 w-8 h-24 absolute top-1/2 left-3/4 rounded-sm  ':
-      " rounded-sm absolute top-1/2  bg-blue-900 w-8 h-24 "} 
+      " rounded-sm fixed top-1/2  bg-blue-900 w-8 h-24 "} 
       onClick={openSidebar}>
  
       {sidebar.isOpen?<MdArrowLeft size='2.5rem'/>
@@ -47,8 +47,8 @@ const SidebarArrow = () => {
     ):(
       <div className='text-white'>
       <button className={sidebar.isOpen?
-      ' bg-blue-900 w-8 h-24 absolute top-1/2  left-1/4  rounded-sm  ':
-      " rounded-sm absolute top-1/2  bg-blue-900 w-8 h-24 "} 
+      ' bg-blue-900 w-8 h-24 fixed top-1/2  left-1/4  rounded-sm  ':
+      " rounded-sm fixed top-1/2  bg-blue-900 w-8 h-24 "} 
       onClick={openSidebar}>
  
       {sidebar.isOpen?<MdArrowLeft size='2.5rem'/>

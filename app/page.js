@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     isMobile?(
-      <div className=" flex-col">
+      <div className=" bg-whtie flex-col">
 
       <SidebarArrow/>
       
@@ -52,6 +52,7 @@ export default function Home() {
       (mobilestore.router==='/market'?
       material.map((material,index)=>(
         <MarketBox key={index} src={material.src} title={material.title} description={material.description}/>
+       
 
       )):null)
      
