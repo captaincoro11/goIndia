@@ -1,6 +1,6 @@
 import React from 'react';
-import img from '../assets/climate2.jpeg';
-import useStore  from '@/hooks/sidebarstore';
+
+import useStore  from '../hooks/sidebarstore';
 import { useMediaQuery } from '@react-hooks-library/core';
 
 const MarketBox = ({src,title,description}) => {

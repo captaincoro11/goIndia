@@ -6,12 +6,12 @@ import MarketBox from "../components/MarketBox";
 import MobileNavbar from '../components/MobileNavbar';
 import Sidebar from "../components/Sidebar";
 import SidebarArrow from "../components/SidebarArrow";
-import useStore  from '@/hooks/sidebarstore';
+import useStore  from '../hooks/sidebarstore';
 import useMobileStore from '../hooks/mobilenavbarstore'
 import {users} from '../response'
 import { material } from "../response";
 import { useMediaQuery } from '@react-hooks-library/core'
-import { useRouter } from "next/navigation";
+
 
 
 export default function Home() {

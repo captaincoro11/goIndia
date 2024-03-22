@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useRouter } from 'next/router'
+
 import useMobileStore from '../hooks/mobilenavbarstore'
 import { useMediaQuery } from '@react-hooks-library/core'
 
