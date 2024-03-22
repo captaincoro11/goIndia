@@ -20,7 +20,7 @@ const Sidebar = () => {
   return (
 
     isMobile?(
-      <div className={(usermobilelength||materialmobilellength)?'w-3/4 bg-blue-900 fixed  text-white max-h-max': 'w-3/4 bg-blue-900 fixed  text-white h-screen '}>
+      <div className={(usermobilelength||materialmobilellength)?'w-3/4 bg-blue-900 fixed  text-white max-h-screen': 'w-3/4 bg-blue-900 fixed  text-white min-h-screen '}>
       <div className='flex justify-around pt-4 '>
       
       <div className='flex space-x-3   '>
